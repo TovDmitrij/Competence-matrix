@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <div onclick="tree_toggle(arguments[0])">
+
+    <!--<div onclick="tree_toggle(arguments[0])">
       <div>Tree</div>
       <ul class="Container">
         <li class="Node IsRoot IsLast ExpandClosed">
@@ -33,6 +35,163 @@
           </ul>
         </li>
       </ul>
+    </div>-->
+    <div class="row_divs">
+        <div class="high_div">
+            <p class="lead1">
+                Компетенции
+            </p>
+            <section class="sec_row">
+                <select class="form-select" size="3" aria-label="size 3 select example">              
+                    
+                </select>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1" style="height: 300px; border: 1px solid rgb(92, 139, 215) "></textarea>
+                    <label for="floatingTextarea1">Описание</label>
+                </div>
+            </section>
+            <section class="sec_row2">
+              <button type="button" class="btn2 btn2-outline-primary">Доб</button>
+              <button type="button" class="btn btn-outline-primary">Ред</button>
+              <button type="button" class="btn2 btn2-outline-primary">Удал</button>
+            </section>
+        </div>
+        <div class="high_div2">
+            <p class="lead2">
+                Индикаторы
+            </p>
+            <section class="sec_row">
+              <select class="form-select" size="3" aria-label="size 3 select example">              
+                  
+              </select>
+              <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px; border: 1px solid rgb(92, 139, 215) "></textarea>
+                  <label for="floatingTextarea2">Описание</label>
+              </div>
+            </section>
+            <section class="sec_row3">
+              <button type="button" class="btn btn-outline-primary">Доб</button>
+              <button type="button" class="btn2 btn2-outline-primary">Ред</button>
+              <button type="button" class="btn btn-outline-primary">Удал</button>
+            </section>
+        </div>
+        <!--<div class="high_div3">
+            <p class="lead2">
+                Знания
+            </p>
+            <section class="sec_row4">
+                <select class="form-select f-s-n" size="3" aria-label="size 3 select example">              
+                  
+                </select>
+                <div class="form-floating f-f-n">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" style="height: 100px; border: 1px solid rgb(92, 139, 215) "></textarea>
+                  <label for="floatingTextarea3">Описание</label>
+              </div>
+            </section>
+            <section class="sec_row3">
+              <button type="button" class="btn2 btn3 btn2-outline-primary">Доб</button>
+              <button type="button" class="btn btn3 btn-outline-primary">Ред</button>
+              <button type="button" class="btn2 btn3 btn2-outline-primary">Удал</button>
+            </section>
+
+            <p class="lead3">
+              Умения
+            </p>
+            <section class="sec_row4">
+              <select class="form-select f-s-n" size="3" aria-label="size 3 select example">              
+                
+              </select>
+              <div class="form-floating f-f-n">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea4" style="height: 100px; border: 1px solid rgb(92, 139, 215) "></textarea>
+                <label for="floatingTextarea4">Описание</label>
+              </div>
+            </section>
+            <section class="sec_row3">
+              <button type="button" class="btn btn3 btn-outline-primary">Доб</button>
+              <button type="button" class="btn2 btn3 btn2-outline-primary">Ред</button>
+              <button type="button" class="btn btn3 btn-outline-primary">Удал</button>
+            </section>
+
+            <p class="lead3">
+              Владения
+            </p>
+            <section class="sec_row4">
+              <select class="form-select f-s-n" size="3" aria-label="size 3 select example">              
+                
+              </select>
+              <div class="form-floating f-f-n">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea5" style="height: 100px; border: 1px solid rgb(92, 139, 215) "></textarea>
+                <label for="floatingTextarea5">Описание</label>
+              </div>
+            </section>
+            <section class="sec_row3">
+              <button type="button" class="btn2 btn3 btn2-outline-primary">Доб</button>
+              <button type="button" class="btn btn3 btn-outline-primary">Ред</button>
+              <button type="button" class="btn2 btn3 btn2-outline-primary">Удал</button>
+            </section>
+        </div>-->
     </div>
+
+    <div class="high_div3">
+      <p class="lead2">
+          Знания
+      </p>
+      <section class="sec_row4">
+          <select class="form-select f-s-n" size="3" aria-label="size 3 select example">              
+            
+          </select>
+          <div class="form-floating f-f-n">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" style="height: 100px; border: 1px solid rgb(92, 139, 215) "></textarea>
+            <label for="floatingTextarea3">Описание</label>
+          </div>
+      </section>
+      <section class="sec_row3">
+        <button type="button" class="btn2 btn3 btn2-outline-primary">Доб</button>
+        <button type="button" class="btn btn3 btn-outline-primary">Ред</button>
+        <button type="button" class="btn2 btn3 btn2-outline-primary">Удал</button>
+      </section>
+
+
+
+      <p class="lead3">
+        Умения
+      </p>
+      <section class="sec_row4">
+        <select class="form-select f-s-n" size="3" aria-label="size 3 select example">              
+          
+        </select>
+        <div class="form-floating f-f-n">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea4" style="height: 100px; border: 1px solid rgb(92, 139, 215) "></textarea>
+          <label for="floatingTextarea4">Описание</label>
+        </div>
+      </section>
+      <section class="sec_row3">
+        <button type="button" class="btn btn3 btn-outline-primary">Доб</button>
+        <button type="button" class="btn2 btn3 btn2-outline-primary">Ред</button>
+        <button type="button" class="btn btn3 btn-outline-primary">Удал</button>
+      </section>
+
+
+
+      <p class="lead3">
+        Владения
+      </p>
+      <section class="sec_row4">
+        <select class="form-select f-s-n" size="3" aria-label="size 3 select example">              
+          
+        </select>
+        <div class="form-floating f-f-n">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea5" style="height: 100px; border: 1px solid rgb(92, 139, 215) "></textarea>
+          <label for="floatingTextarea5">Описание</label>
+        </div>
+      </section>
+      <section class="sec_row3">
+        <button type="button" class="btn2 btn3 btn2-outline-primary">Доб</button>
+        <button type="button" class="btn btn3 btn-outline-primary">Ред</button>
+        <button type="button" class="btn2 btn3 btn2-outline-primary">Удал</button>
+      </section>
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
