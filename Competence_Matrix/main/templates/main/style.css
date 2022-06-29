@@ -63,6 +63,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items:center;
+    background-image: url(img/back.jpg)
 }
 .high_div{
     width: 325px;
@@ -74,6 +75,7 @@ body{
     border:double 3px rgb(92, 139, 215);
     border-radius: 25% 10%;
     align-items:center;
+    background-color:white;
 }
 .high_div2{
     width: 325px;
@@ -85,6 +87,7 @@ body{
     border:double 3px rgb(220, 94, 172);
     border-radius: 10% 25%;
     align-items:center;
+    background-color:white;
 }
 .high_div3{
     width: 500px;
@@ -93,7 +96,6 @@ body{
     flex-direction:column;
     margin-left:10px;
     margin-right:10px;
-    margin-top:50px;
     /*border:double 3px rgb(92, 139, 215);*/
     background: 
         linear-gradient(white, white) padding-box,
@@ -102,11 +104,35 @@ body{
     border: 3px double transparent;
     align-items:center;
 
+
+}
+.high_div4{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border: 3px double rgb(220, 94, 172);   
+    border-radius: 50% 20% / 10% 40%;
+    width: 600px;
+    height:650px;
+    background-color:white;
+    margin-left:10px;
+    margin-bottom:30px;
+    margin-top:30px;
+
+
 }
 .row_divs{
     display:flex;
     flex-direction:row;
     
+}
+.col_div{
+    display:flex;
+    flex-direction:column;
+}
+img{
+    height:250px;
+    width:600px;
 }
 
 .form-floating{
@@ -162,6 +188,7 @@ option{
     margin-top:15px;
 
 }
+
 .sec_row{
     display:flex;
     flex-direction:row;
